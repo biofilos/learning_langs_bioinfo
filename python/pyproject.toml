@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-bioinfo"
+version = "0.1.0"
+description = ""
+authors = ["Juan Felipe Ortiz <juan@biosilico.io>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
