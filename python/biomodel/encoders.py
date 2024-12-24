@@ -12,7 +12,6 @@ class NucleotideEncoder:
         # the only rule is that the ~ operator on a ACGT,
         # should give the complementary base
         self.nt_to_bin = ref_nt_to_bin
-        
         self.nt_str = nt_str
         self.nt_len = len(self.nt_str)
         # version codes (3), the number of nucleotides, and the wordsize
